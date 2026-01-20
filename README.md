@@ -1,14 +1,15 @@
 # ANN-classification-churn-prediction
+
 # 🧠 Customer Churn Prediction using Artificial Neural Network (ANN)
 
-This project predicts whether a bank customer will **exit the bank (Churn = 1)** or **stay (Churn = 0)** based on demographic, financial, and account activity features.  
+This project predicts whether a bank customer will **exit the bank (Churn = 1)** or **stay (Churn = 0)** based on demographic, financial, and account activity features.
 It uses a **deep learning-based Artificial Neural Network (ANN)** built with **TensorFlow/Keras**.
 
 ---
 
 ## 📌 Project Overview
 
-Banks lose millions due to customer churn. Predicting which customers are likely to leave helps improve retention and business strategy.  
+Banks lose millions due to customer churn. Predicting which customers are likely to leave helps improve retention and business strategy.
 
 In this project, I built an **end-to-end ANN classification model** that analyzes customer data and predicts churn using advanced machine learning techniques.
 
@@ -30,7 +31,7 @@ The dataset contains **14 input features** such as:
 - **Is Active Member**
 - **Estimated Salary**
 
-**Target variable:**  
+**Target variable:**
 `Exited` → 1 (customer left) / 0 (customer stayed)
 
 ---
@@ -49,7 +50,8 @@ The dataset contains **14 input features** such as:
 ## 🔍 Workflow
 
 ### 1️⃣ Data Preprocessing
-- Handle missing values  
+
+- Handle missing values
 - Encode categorical features:
   - Label Encoding (`Gender`)
   - One-Hot Encoding (`Geography`)
@@ -57,15 +59,18 @@ The dataset contains **14 input features** such as:
 - Train–test split
 
 ### 2️⃣ Model Architecture (ANN)
-- Input Layer  
-- Two Dense Hidden Layers (ReLU activation)  
-- Dropout layers to prevent overfitting  
-- Output Layer (Sigmoid activation for binary classification)  
-- Optimizer: **Adam**  
+
+- Input Layer
+- Two Dense Hidden Layers (ReLU activation)
+- Dropout layers to prevent overfitting
+- Output Layer (Sigmoid activation for binary classification)
+- Optimizer: **Adam**
 - Loss Function: **Binary Crossentropy**
 
 ### 3️⃣ Model Evaluation
+
 Measured using:
+
 - Accuracy
 - Confusion Matrix
 - Precision, Recall, F1-Score
@@ -76,17 +81,18 @@ Measured using:
 ## 📊 Results
 
 The ANN achieved strong performance in predicting customer churn and identified key patterns such as:
-- Active members are less likely to churn  
-- Higher balance customers tend to leave more  
-- Geography has a significant influence on churn rate  
 
-*(Customize this section with your exact metrics if you want.)*
+- Active members are less likely to churn
+- Higher balance customers tend to leave more
+- Geography has a significant influence on churn rate
+
+_(Customize this section with your exact metrics if you want.)_
 
 ---
 
 ## 🚀 How to Run This Project
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/Abhaypandy/ANN-classification-churn-prediction.git
 
+git clone https://github.com/Abhaypandy/ANN-classification-churn-prediction.git
+churn_env
